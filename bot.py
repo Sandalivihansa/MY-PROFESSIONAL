@@ -78,9 +78,5 @@ async def main() -> None:
     await application.run_polling()
 
 if __name__ == '__main__':
-    # Running the bot asynchronously
-    import nest_asyncio
-    nest_asyncio.apply()
-
     # Running the main asynchronous function
     asyncio.run(main())
