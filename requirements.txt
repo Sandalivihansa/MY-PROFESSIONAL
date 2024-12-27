@@ -1,0 +1,2 @@
+yt-dlp
+flask  # (Only if using Flask for the web app)
